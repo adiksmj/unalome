@@ -7,10 +7,11 @@ body {
 
 .conainervid {
   max-height: 700px;
-  width:100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
+
 .container {
   background: #77777e;
   width: 100%;
