@@ -19,8 +19,8 @@ const SectionA = () => {
          .containerText {
              width: 55%;
              height: auto; 
-             padding-top: 110px;
-             padding-bottom: 80px;
+             padding-top: 150px;
+             padding-bottom: 150px;
              display: inline-block;
          }
         

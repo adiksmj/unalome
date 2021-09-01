@@ -5,6 +5,12 @@ body {
   padding: 0;
 }
 
+.conainervid {
+  max-height: 700px;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
 .container {
   background: #77777e;
   width: 100%;
@@ -12,10 +18,7 @@ body {
 }
 
 .logo {
-  position: relative;
   display: inline-block;
-  width: 100%;
-  height: auto;
   margin-left: 25px;
 }
 
