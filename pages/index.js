@@ -1,14 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../comps/navbar'
-import styles from '../styles/Home.module.css'
 import YoutubeEmbed from '../comps/video'
+import SectionA from '../comps/sectionA'
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
       <YoutubeEmbed />
+      <SectionA />
     </div>
   )
 }
