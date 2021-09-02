@@ -12,7 +12,7 @@ import ImageHome3New from '../comps/homepage/imagehome3new'
 export default function Home() {
   return (
     <div>
-    <div classname="container">
+    <div className="container">
       <Navbar/>
       <YoutubeEmbed />
       <SectionA />
