@@ -7,7 +7,8 @@ const Imagehome2 = () => {
         <style jsx>{`
         .container {
             position: relative;
-            height: 550px;
+            width: 100%;
+            height: 650px;
             z-index: -1;
          
             

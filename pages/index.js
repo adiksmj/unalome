@@ -7,6 +7,7 @@ import ImageHome1 from '../comps/homepage/imagehome1'
 import SectionB from '../comps/homepage/sectionB'
 import Imagehome2 from '../comps/homepage/imagehome2'
 import SectionC from '../comps/homepage/sectionC'
+import ImageHome3New from '../comps/homepage/imagehome3new'
 
 export default function Home() {
   return (
@@ -19,10 +20,11 @@ export default function Home() {
       <SectionB />
       <Imagehome2 />
       <SectionC />
+      <ImageHome3New />
     </div>
     <style jsx>{`
     .container {
-      max-width: 500px; 
+      max-width: 700px; 
       margin: 0;
       padding: 0;
       overflow: hidden;

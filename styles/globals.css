@@ -5,28 +5,6 @@ body {
   padding: 0;
 }
 
-.conainervid {
-  max-height: 700px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  background: #77777e;
-  width: 100%;
-  height: auto;
-}
-
-.logo {
-  display: inline-block;
-  margin-left: 25px;
-}
-
-.video-responsive {
-  line-height: 0;
-}
-
 @font-face {
   font-family: "RoundedElegance";
   src: url("/fonts/Rounded_Elegance.ttf") format("truetype");

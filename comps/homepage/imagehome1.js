@@ -16,12 +16,21 @@ const ImageHome1 = () => {
             justify-content: space-around;
             margin: 0;
             padding: 0;
+            overflow: hidden;
         }
 
         img {
             width: 400px;
             height: auto;
             flex-grow: 3;
+            transition: transform 2s, filter 1.5s ease-in-out;
+            transform-origin: center center;
+            filter: brightness(50%);
+        }
+
+        img:hover {
+            filter: brightness(100%);
+            transform: scale(1.3);
         }
        
         `}</style>

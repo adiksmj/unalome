@@ -24,6 +24,11 @@ const YoutubeEmbed = () => {
       title="Embedded youtube"
     />
   </div>
+  <style jsx>{`
+    .video-responsive {
+              line-height: 0;
+              }   
+  `}</style>
   </div>
   
   </>
