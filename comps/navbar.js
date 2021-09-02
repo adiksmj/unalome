@@ -13,6 +13,7 @@ const Navbar = () => {
             background: #77777e;
             width: 100%;
             height: auto;
+            position: sticky;
             }
 
             .logo {

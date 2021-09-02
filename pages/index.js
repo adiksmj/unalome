@@ -8,6 +8,8 @@ import SectionB from '../comps/homepage/sectionB'
 import Imagehome2 from '../comps/homepage/imagehome2'
 import SectionC from '../comps/homepage/sectionC'
 import ImageHome3New from '../comps/homepage/imagehome3new'
+import SectionD from '../comps/homepage/sectionD'
+import Imagehome4 from '../comps/homepage/imagehome4'
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
       <Imagehome2 />
       <SectionC />
       <ImageHome3New />
+      <SectionD />
     </div>
     <style jsx>{`
     .container {
