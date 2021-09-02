@@ -24,7 +24,7 @@ export default function Home() {
     </div>
     <style jsx>{`
     .container {
-      max-width: 700px; 
+      max-width: 100%; 
       margin: 0;
       padding: 0;
       overflow: hidden;
