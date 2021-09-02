@@ -13,7 +13,9 @@ const Navbar = () => {
             background: #77777e;
             width: 100%;
             height: auto;
-            position: sticky;
+            position: fixed;
+            top: 0;
+            z-index: 99;
             }
 
             .logo {

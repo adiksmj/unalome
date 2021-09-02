@@ -39,7 +39,7 @@ const Footer = () => {
             margin: 0;
             padding: 0;
             background-color: #77777e;
-            color: white; 
+            color: #c7c3c3;
             
         }
 
@@ -89,20 +89,20 @@ const Footer = () => {
             background: transparent;
             width: 300px;
             height: 50px;
-            border: 1px solid white;
-            color: white;
+            border: 1px solid #c7c3c3;;
             border-radius: 5px;
             margin: 10px 0;
         }
 
         ::placeholder {
-            color: white;
+            color: #c7c3c3;;
             text-align: center;
         }
 
         .submit {
             background: transparent;
             cursor: pointer;
+            color: #c7c3c3;
         }
         .follow {
             width: 25%;
@@ -129,7 +129,7 @@ const Footer = () => {
             float: right;
             padding-right: 50px;
             padding-top: 20px;
-            color: white;
+            color: #c7c3c3;;
             text-decoration: none;
         }
         

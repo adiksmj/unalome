@@ -38,6 +38,7 @@ const ImageHome3New = () => {
             cursor: pointer;
             transition: transform 1s, filter 1s ease-in-out;
             transform-origin: center center;
+            line-height: 0;
             
         }
 
@@ -63,7 +64,7 @@ const ImageHome3New = () => {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            z-index: 99;
+            z-index: 1;
           
         }
 
