@@ -1,32 +1,13 @@
+import { Parallax } from "react-parallax";
+
+const image = "/bromo.jpg"
 const Imagehome4 = () => {
     return ( 
         <div>
-        <div className="container">
-            <img src="/bromo.jpg"></img>
-        </div>
-        <style jsx>{`
-        .container {
-            position: relative;
-            width: 100%;
-            height: 650px;
-            z-index: -1;
-         
-            
-           
-        }
-
-        div img {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-around;
-            height: auto;
-            width: inherit;
-            position: fixed;
-            top: 0px; 
-        }
-        
-        `}</style>
-        </div>
+            <Parallax bgImage={image} strength={500}>
+                <div style={{ height:650 }}></div>
+            </Parallax>
+        </div> 
      );
 }
  

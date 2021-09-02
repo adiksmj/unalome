@@ -1,5 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
+
 import Navbar from '../comps/navbar'
 import YoutubeEmbed from '../comps/homepage/video'
 import SectionA from '../comps/homepage/sectionA'
@@ -10,6 +9,8 @@ import SectionC from '../comps/homepage/sectionC'
 import ImageHome3New from '../comps/homepage/imagehome3new'
 import SectionD from '../comps/homepage/sectionD'
 import Imagehome4 from '../comps/homepage/imagehome4'
+import SectionE from '../comps/homepage/sectionE'
+import Footer from '../comps/footer'
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
       <SectionC />
       <ImageHome3New />
       <SectionD />
+      <Imagehome4 />
+      <SectionE />
+      <Footer />
     </div>
     <style jsx>{`
     .container {
