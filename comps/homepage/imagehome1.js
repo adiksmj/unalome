@@ -23,14 +23,6 @@ const ImageHome1 = () => {
             width: 400px;
             height: auto;
             flex-grow: 3;
-            transition: transform 2s, filter 1.5s ease-in-out;
-            transform-origin: center center;
-            filter: brightness(50%);
-        }
-
-        img:hover {
-            filter: brightness(100%);
-            transform: scale(1.3);
         }
        
         `}</style>
