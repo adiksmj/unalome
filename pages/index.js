@@ -11,6 +11,8 @@ import SectionD from '../comps/homepage/sectionD'
 import Imagehome4 from '../comps/homepage/imagehome4'
 import SectionE from '../comps/homepage/sectionE'
 import Footer from '../comps/footer'
+import ImageHome5 from '../comps/homepage/imagehome5'
+
 
 export default function Home() {
   return (
@@ -27,6 +29,7 @@ export default function Home() {
       <SectionD />
       <Imagehome4 />
       <SectionE />
+      <ImageHome5 />
       <Footer />
     </div>
     <style jsx>{`

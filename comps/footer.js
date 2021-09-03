@@ -19,10 +19,10 @@ const Footer = () => {
                 </div>
                 <div className="follow">
                     <h3>FOLLOW US</h3>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
+                    <a href=""><img src="fbicon.png" /></a>
+                    <a href=""><img src="instaicon.png" /></a>
+                    <a href=""><img src="mailicon.png" /></a>
+                    <a href=""><img src="youtubeicon.png" /></a>
                 </div>
             </div>
             <div className="copyright">
@@ -34,12 +34,15 @@ const Footer = () => {
         </div>
         <style jsx>{`
         .wrapper {
+            display: block;
             width: 100%;
-            height: 360px;
+            height: auto;
             margin: 0;
             padding: 0;
             background-color: #77777e;
             color: #c7c3c3;
+            overflow: hidden;
+            
             
         }
 
@@ -74,8 +77,12 @@ const Footer = () => {
             height: auto;
         }
 
+        .contact h3 {
+            display: block;
+        }
         .contact p {
             width : 170px;
+          
         }
 
         .news {
@@ -91,7 +98,8 @@ const Footer = () => {
             height: 50px;
             border: 1px solid #c7c3c3;;
             border-radius: 5px;
-            margin: 10px 0;
+            margin: 0;
+            margin-bottom: 15px;
         }
 
         ::placeholder {
@@ -107,6 +115,13 @@ const Footer = () => {
         .follow {
             width: 25%;
             height: auto; 
+        }
+
+        .follow img {
+            width: 40px;
+            height: 40px;
+            padding: 4px;
+            border: 1px solid #c7c3c3;
         }
 
 
