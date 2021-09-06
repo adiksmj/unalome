@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faHighlighter, faPlay } from '@fortawesome/free-solid-svg-icons';
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -16,8 +16,8 @@ const ImageHome5 = () => {
             <div>
               <p>“CREATING A PIECE OF FURNITURE, IT’S LIKE A PIECE OF ART”</p>
             </div>
-            <div>
-            <a href="https://www.youtube.com/watch?v=iYz1qN2NG9I"> <FontAwesomeIcon className="icon" icon={faPlay} /></a>
+            <div className="faimage">
+            <a href="https://www.youtube.com/watch?v=iYz1qN2NG9I"> <FontAwesomeIcon icon={faPlay} color="white" size="2x" /></a>
             </div>
           </div>
           </div>
@@ -30,11 +30,13 @@ const ImageHome5 = () => {
                 position: relative;
                 overflow: hidden;
                 line-height: 0;
+                
             }
 
             .container img {
                 object-fit: cover;
                 object-position: 0px 0px;
+              
             }
 
             .container p {
@@ -45,10 +47,10 @@ const ImageHome5 = () => {
                 color: white;
             }
 
-            .icon {
-                width: 70px;
-                height: 70px;
-                color: white;
+            .faimage {
+              position: absolute;
+              top: 56%;
+              left: 50%;
             }
 
           `}</style>

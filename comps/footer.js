@@ -14,7 +14,7 @@ const Footer = () => {
                 </div>
                 <div className="news">
                     <h3>NEWSLETTER</h3>
-                    <input type="text" placeholder="Email Address"></input>
+                    <input type="text" placeholder="Email Address*"></input>
                     <input className="submit" type="submit" value="SUBSCRIBE"></input>
                 </div>
                 <div className="follow">
@@ -96,15 +96,19 @@ const Footer = () => {
             background: transparent;
             width: 300px;
             height: 50px;
-            border: 1px solid #c7c3c3;;
+            color:#c7c3c3;
+            border: 1px solid #c7c3c3;
             border-radius: 5px;
             margin: 0;
             margin-bottom: 15px;
+            outline: none;
+            
         }
 
         ::placeholder {
             color: #c7c3c3;;
-            text-align: center;
+            text-align: left;
+            padding-left: 10px;
         }
 
         .submit {

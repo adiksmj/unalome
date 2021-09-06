@@ -12,6 +12,9 @@ import Imagehome4 from '../comps/homepage/imagehome4'
 import SectionE from '../comps/homepage/sectionE'
 import Footer from '../comps/footer'
 import ImageHome5 from '../comps/homepage/imagehome5'
+import SectionF from '../comps/homepage/sectionF'
+import SectionG from '../comps/homepage/sectionG'
+import Imagehome6 from '../comps/homepage/imagehome6'
 
 
 export default function Home() {
@@ -30,6 +33,9 @@ export default function Home() {
       <Imagehome4 />
       <SectionE />
       <ImageHome5 />
+      <SectionF />
+      <SectionG />
+      <Imagehome6 />
       <Footer />
     </div>
     <style jsx>{`

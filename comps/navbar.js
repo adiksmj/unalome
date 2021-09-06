@@ -5,20 +5,21 @@ const Navbar = () => {
         <>
         <nav className="container">
             <div className="logo">
-                <Image src="/unalome.png" width="200" height="80"/>
+                <Image src="/unalome.png" width="180" height="70"/>
             </div>
         </nav>
         <style jsx>{`
         .container {
             background: #77777e;
             width: 100%;
-            height: auto;
+            height: 70px;
             position: fixed;
             top: 0;
             z-index: 99;
             }
 
             .logo {
+            
             display: inline-block;
             margin-left: 25px;
             }
