@@ -33,6 +33,7 @@ const SectionC = () => {
 
          p {
              padding-top: 20px;
+             line-height: 30px;
          }
      
         `}

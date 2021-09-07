@@ -6,15 +6,15 @@ const ImageHome3New = () => {
         <div className="container">
             <div className="box">
                 <h3>OUR COLLECTION</h3>
-                <img src="/imageOurCollection.jpg"></img>
+                <img src="/imgHome/imageOurCollection.jpg"></img>
             </div>
             <div className="box">
                 <h3>OUR STORY</h3>
-                <img src="/imageOurStory.jpg"></img>
+                <img src="/imgHome/imageOurStory.jpg"></img>
             </div>
             <div className="box">
                 <h3>OUR PROJECTS</h3>
-                <img src="/imageOurProject.jpg"></img></div>
+                <img src="/imgHome/imageOurProject.jpg"></img></div>
         </div>
         <style jsx>{`
 

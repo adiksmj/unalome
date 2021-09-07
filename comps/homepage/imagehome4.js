@@ -1,6 +1,6 @@
 import { Parallax } from "react-parallax";
 
-const image = "/bromo.jpg"
+const image = "/imgHome/bromo.jpg"
 const Imagehome4 = () => {
     return ( 
         <div>

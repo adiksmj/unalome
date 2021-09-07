@@ -42,6 +42,7 @@ const Footer = () => {
             background-color: #77777e;
             color: #c7c3c3;
             overflow: hidden;
+            line-height: 26px;
             
             
         }

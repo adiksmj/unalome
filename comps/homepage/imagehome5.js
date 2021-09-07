@@ -10,7 +10,7 @@ const ImageHome5 = () => {
         <>
           <div className="container">
           <div>
-            <img src="ourFounder.jpg" width="100%" height="900px"/>
+            <img src="/imgHome/ourFounder.jpg" width="100%" height="900px"/>
           </div>
           <div>
             <div>

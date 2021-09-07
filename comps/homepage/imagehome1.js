@@ -4,9 +4,9 @@ const ImageHome1 = () => {
     return ( 
         <>
         <div className="container">
-            <img src="/image-left.jpg"></img>
-            <img src="/image-center.jpg"></img>
-            <img src="/image-right.jpg"></img>
+            <img src="/imgHome/image-left.jpg"></img>
+            <img src="/imgHome/image-center.jpg"></img>
+            <img src="/imgHome/image-right.jpg"></img>
         </div>
         <style jsx>{`
 
@@ -22,7 +22,7 @@ const ImageHome1 = () => {
         img {
             width: 400px;
             height: auto;
-            flex-grow: 3;
+            flex-grow: 1;
         }
        
         `}</style>

@@ -2,7 +2,7 @@ const ImageHeader = () => {
     return (
        <>  
         <div className="container">
-            <img src="/project-hero-bw-smooth.jpg" width="100%" height="auto"/>
+            <img src="/imgOurProject/project-hero-bw-smooth.jpg" width="100%" height="auto"/>
         </div>
         <style jsx>{`
 
